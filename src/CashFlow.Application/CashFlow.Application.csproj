@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CashFlow.Communication\CashFlow.Communication.csproj" />
+      <ProjectReference Include="..\CashFlow.Domain\CashFlow.Domain.csproj" />
+      <ProjectReference Include="..\CashFlow.Exception\CashFlow.Exception.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="14.0.0" />
+      <PackageReference Include="ClosedXML" Version="0.105.0-rc" />
+      <PackageReference Include="FluentValidation" Version="11.11.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.3" />
+      <PackageReference Include="PDFsharp-MigraDoc" Version="6.2.0-preview-3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="UseCases\Reports\Expenses\Pdf\Fonts\Raleway-Regular.ttf" />
+      <EmbeddedResource Include="UseCases\Reports\Expenses\Pdf\Fonts\Raleway-Regular.ttf" />
+      <None Remove="UseCases\Reports\Expenses\Pdf\Fonts\Raleway-Black.ttf" />
+      <EmbeddedResource Include="UseCases\Reports\Expenses\Pdf\Fonts\Raleway-Black.ttf" />
+      <None Remove="UseCases\Reports\Expenses\Pdf\Fonts\WorkSans-Black.ttf" />
+      <EmbeddedResource Include="UseCases\Reports\Expenses\Pdf\Fonts\WorkSans-Black.ttf" />
+      <None Remove="UseCases\Reports\Expenses\Pdf\Fonts\WorkSans-Regular.ttf" />
+      <EmbeddedResource Include="UseCases\Reports\Expenses\Pdf\Fonts\WorkSans-Regular.ttf" />
+    </ItemGroup>
+
+</Project>
