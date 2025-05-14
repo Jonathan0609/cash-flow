@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using CashFlow.Application.UseCases.Expenses.Contracts;
 using CashFlow.Communication.Requests.Expenses;
 using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Expenses;

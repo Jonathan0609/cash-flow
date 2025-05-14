@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using CashFlow.Communication.Requests.Expenses;
+using CashFlow.Communication.Requests.Users;
 using CashFlow.Communication.Responses.Expenses;
 using CashFlow.Domain.Entities;
 
@@ -15,8 +16,20 @@ public class AutoMapping: Profile
 
     private void RequestToEntity()
     {
+        #region Expenses
+
         CreateMap<CreateExpensesRequest, Expense>();
         CreateMap<UpdateExpenseRequest, Expense>();
+
+        #endregion
+
+        #region Users
+
+        CreateMap<RegisterUserRequest, User>()
+            .ForMember(dest => dest.Password, config => config.Ignore());
+
+        #endregion
+  
     }
 
     private void EntityToResponse()

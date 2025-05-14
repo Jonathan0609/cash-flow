@@ -1,13 +1,19 @@
-﻿using CashFlow.Application.UseCases.Expenses.Contracts;
+﻿using CashFlow.Application.UseCases.Expenses.Create;
+using CashFlow.Application.UseCases.Expenses.Delete;
+using CashFlow.Application.UseCases.Expenses.GetById;
+using CashFlow.Application.UseCases.Expenses.List;
+using CashFlow.Application.UseCases.Expenses.Update;
 using CashFlow.Communication.Errors;
 using CashFlow.Communication.Requests.Expenses;
 using CashFlow.Communication.Responses.Expenses;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CashFlow.Api.Controllers;
 
 [ApiController]
 [Route("api/v1/[controller]")]
+[Authorize]
 public class ExpensesController : Controller
 {
     [HttpPost]

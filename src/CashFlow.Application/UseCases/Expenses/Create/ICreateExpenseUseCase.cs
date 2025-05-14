@@ -1,7 +1,7 @@
 ﻿using CashFlow.Communication.Requests.Expenses;
 using CashFlow.Communication.Responses.Expenses;
 
-namespace CashFlow.Application.UseCases.Expenses.Contracts;
+namespace CashFlow.Application.UseCases.Expenses.Create;
 
 public interface ICreateExpenseUseCase
 {
