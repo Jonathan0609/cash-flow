@@ -2,6 +2,7 @@
 using CashFlow.Communication.Enums;
 using CashFlow.Exception;
 using CommonTestUtilities.Requests;
+using CommonTestUtilities.Requests.Expenses;
 using Shouldly;
 
 namespace Validators.Tests.Expenses.Create;

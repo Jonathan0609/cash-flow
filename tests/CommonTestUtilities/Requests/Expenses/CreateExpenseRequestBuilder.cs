@@ -2,7 +2,7 @@
 using CashFlow.Communication.Enums;
 using CashFlow.Communication.Requests.Expenses;
 
-namespace CommonTestUtilities.Requests;
+namespace CommonTestUtilities.Requests.Expenses;
 
 // https://github.com/bchavez/Bogus?tab=readme-ov-file
 public class CreateExpenseRequestBuilder
