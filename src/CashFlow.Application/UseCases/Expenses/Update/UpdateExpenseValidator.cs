@@ -1,5 +1,4 @@
-﻿using CashFlow.Communication.Requests.Expenses;
-using CashFlow.Exception;
+﻿using CashFlow.Exception;
 using FluentValidation;
 
 namespace CashFlow.Application.UseCases.Expenses.Update;

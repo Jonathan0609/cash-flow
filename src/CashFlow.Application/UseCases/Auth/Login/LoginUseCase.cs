@@ -1,5 +1,4 @@
-﻿using CashFlow.Communication.Requests.Login;
-using CashFlow.Communication.Responses.Users;
+﻿using CashFlow.Application.UseCases.Users.Register;
 using CashFlow.Domain.Repositories.Users;
 using CashFlow.Domain.Security.Cryptography;
 using CashFlow.Domain.Security.Tokens;

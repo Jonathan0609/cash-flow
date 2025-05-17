@@ -1,6 +1,4 @@
 ﻿using AutoMapper;
-using CashFlow.Communication.Requests.Users;
-using CashFlow.Communication.Responses.Users;
 using CashFlow.Domain.Entities;
 using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Users;
@@ -67,8 +65,7 @@ public class RegisterUsersUseCase : IRegisterUsersUseCase
                 string.Empty,
                 ResourceErrorMessages.EMAIL_ALREADY_REGISTERED));
         }
-            
-
+        
         if (!result.IsValid)
         {
             var errorMessages = result.Errors

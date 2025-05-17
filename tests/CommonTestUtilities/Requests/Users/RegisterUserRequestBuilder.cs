@@ -1,5 +1,5 @@
 ﻿using Bogus;
-using CashFlow.Communication.Requests.Users;
+using CashFlow.Application.UseCases.Users.Register;
 
 namespace CommonTestUtilities.Requests.Users;
 

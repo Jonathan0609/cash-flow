@@ -1,5 +1,4 @@
-﻿using CashFlow.Communication.Requests.Expenses;
-using CashFlow.Domain.Repositories;
+﻿using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Exception;
 

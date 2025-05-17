@@ -5,7 +5,6 @@ using CashFlow.Application.UseCases.Expenses.Delete;
 using CashFlow.Application.UseCases.Expenses.GetById;
 using CashFlow.Application.UseCases.Expenses.List;
 using CashFlow.Application.UseCases.Expenses.Update;
-using CashFlow.Application.UseCases.Reports.Expenses.Contracts;
 using CashFlow.Application.UseCases.Reports.Expenses.Excel;
 using CashFlow.Application.UseCases.Reports.Expenses.Pdf;
 using CashFlow.Application.UseCases.Users.Register;

@@ -1,6 +1,4 @@
 ﻿using AutoMapper;
-using CashFlow.Communication.Requests.Expenses;
-using CashFlow.Communication.Responses.Expenses;
 using CashFlow.Domain.Entities;
 using CashFlow.Domain.Enums;
 using CashFlow.Domain.Repositories;

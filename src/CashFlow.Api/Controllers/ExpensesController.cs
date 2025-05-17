@@ -3,9 +3,7 @@ using CashFlow.Application.UseCases.Expenses.Delete;
 using CashFlow.Application.UseCases.Expenses.GetById;
 using CashFlow.Application.UseCases.Expenses.List;
 using CashFlow.Application.UseCases.Expenses.Update;
-using CashFlow.Communication.Errors;
-using CashFlow.Communication.Requests.Expenses;
-using CashFlow.Communication.Responses.Expenses;
+using CashFlow.Exception;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

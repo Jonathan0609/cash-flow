@@ -2,7 +2,7 @@
 
 namespace CashFlow.Exception;
 
-public class ErrorOnValidationException: CashFlowException
+public class ErrorOnValidationException : CashFlowException
 {
     private readonly List<string> _errors;
 

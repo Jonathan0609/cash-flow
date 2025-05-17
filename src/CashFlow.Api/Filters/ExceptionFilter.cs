@@ -1,5 +1,4 @@
-﻿using CashFlow.Communication.Errors;
-using CashFlow.Exception;
+﻿using CashFlow.Exception;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 

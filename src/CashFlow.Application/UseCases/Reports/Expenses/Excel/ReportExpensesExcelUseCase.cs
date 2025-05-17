@@ -1,6 +1,4 @@
-﻿using CashFlow.Application.UseCases.Reports.Expenses.Contracts;
-using CashFlow.Communication.Requests.Reports.Expenses;
-using CashFlow.Domain.Enums;
+﻿using CashFlow.Domain.Enums;
 using CashFlow.Domain.Extensions;
 using CashFlow.Domain.Reports;
 using CashFlow.Domain.Repositories.Expenses;

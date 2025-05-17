@@ -1,6 +1,6 @@
 ﻿using System.Net.Mime;
-using CashFlow.Application.UseCases.Reports.Expenses.Contracts;
-using CashFlow.Communication.Requests.Reports.Expenses;
+using CashFlow.Application.UseCases.Reports.Expenses.Excel;
+using CashFlow.Application.UseCases.Reports.Expenses.Pdf;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CashFlow.Api.Controllers;

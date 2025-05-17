@@ -1,7 +1,5 @@
-﻿using CashFlow.Application.UseCases.Reports.Expenses.Contracts;
-using CashFlow.Application.UseCases.Reports.Expenses.Pdf.Colors;
+﻿using CashFlow.Application.UseCases.Reports.Expenses.Pdf.Colors;
 using CashFlow.Application.UseCases.Reports.Expenses.Pdf.Fonts;
-using CashFlow.Communication.Requests.Reports.Expenses;
 using CashFlow.Domain.Entities;
 using CashFlow.Domain.Extensions;
 using CashFlow.Domain.Reports;

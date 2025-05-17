@@ -1,7 +1,6 @@
 ﻿using CashFlow.Application.UseCases.Auth.Login;
-using CashFlow.Communication.Errors;
-using CashFlow.Communication.Requests.Login;
-using CashFlow.Communication.Responses.Users;
+using CashFlow.Application.UseCases.Users.Register;
+using CashFlow.Exception;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CashFlow.Api.Controllers;

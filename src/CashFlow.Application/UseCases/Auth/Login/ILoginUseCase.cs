@@ -1,5 +1,4 @@
-﻿using CashFlow.Communication.Requests.Login;
-using CashFlow.Communication.Responses.Users;
+﻿using CashFlow.Application.UseCases.Users.Register;
 
 namespace CashFlow.Application.UseCases.Auth.Login;
 

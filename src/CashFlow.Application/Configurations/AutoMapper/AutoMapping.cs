@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
-using CashFlow.Communication.Requests.Expenses;
-using CashFlow.Communication.Requests.Users;
-using CashFlow.Communication.Responses.Expenses;
+using CashFlow.Application.UseCases.Expenses;
+using CashFlow.Application.UseCases.Expenses.Create;
+using CashFlow.Application.UseCases.Expenses.GetById;
+using CashFlow.Application.UseCases.Expenses.Update;
+using CashFlow.Application.UseCases.Users.Register;
 using CashFlow.Domain.Entities;
 
 namespace CashFlow.Application.Configurations.AutoMapper;

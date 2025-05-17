@@ -1,5 +1,5 @@
 ﻿using CashFlow.Application.UseCases.Users;
-using CashFlow.Communication.Requests.Users;
+using CashFlow.Application.UseCases.Users.Register;
 using CashFlow.Exception;
 using FluentValidation;
 using Shouldly;

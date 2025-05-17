@@ -1,6 +1,6 @@
 ﻿using Bogus;
-using CashFlow.Communication.Enums;
-using CashFlow.Communication.Requests.Expenses;
+using CashFlow.Application.UseCases._Enums;
+using CashFlow.Application.UseCases.Expenses.Create;
 
 namespace CommonTestUtilities.Requests.Expenses;
 

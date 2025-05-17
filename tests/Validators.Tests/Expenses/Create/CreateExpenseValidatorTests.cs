@@ -1,5 +1,5 @@
-﻿using CashFlow.Application.UseCases.Expenses.Create;
-using CashFlow.Communication.Enums;
+﻿using CashFlow.Application.UseCases._Enums;
+using CashFlow.Application.UseCases.Expenses.Create;
 using CashFlow.Exception;
 using CommonTestUtilities.Requests;
 using CommonTestUtilities.Requests.Expenses;
